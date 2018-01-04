@@ -2,7 +2,7 @@
 
 ## CREATE REPOSITORIES
 *Start a new repository or obtain one from an existing URL*
-- **git init [project-name]** Creates a new local repository with the speci?ed name
+- **git init [project-name]** Creates a new local repository with the specified name
 - **git clone [url]** Downloads a project and its entire version history
 
 
@@ -20,7 +20,7 @@
 - **git reset [file]** Unstages the file, but preserve its contents
 - **git diff** Shows file diferences not yet staged
 - **git diff --staged** Shows file diferences between staging and the last file version
-- **git commit -m "[descriptive message]"** Records ?le snapshots permanently in version history
+- **git commit -m "[descriptive message]"** Records file snapshots permanently in version history
 
 
 ## SYNCHRONIZE CHANGES
@@ -36,7 +36,8 @@
 - **git branch** Lists all local branches in the current repository
 - **git branch [branch-name]** Creates a new branch
 - **git checkout [branch-name]** Switches to the specified branch and updates the working directory
-- **git merge [branch]** Combines the speci?ed branch’s history into the current branch
+- **git merge [branch]** Combines the specified branch’s history into the current branch
+- **git rebase [branch]** Combines the specified branch’s history after all the changes in the current branch
 - **git branch -d [branch-name]** Deletes the specified branch
 
 
