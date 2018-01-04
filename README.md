@@ -2,6 +2,8 @@
 
 Link : https://git-scm.com/
 
+## Index
+
 * [Create repositories](#createRepo)
 * [Configure tool](#confTool)
 * [Make changes](#makeChange)
@@ -10,6 +12,8 @@ Link : https://git-scm.com/
 * [Save fragments](#saveFrag)
 * [Review history](#revHistory)
 
+##  
+##  
 
 ## CREATE REPOSITORIES <a id=createRepo></a>
 
