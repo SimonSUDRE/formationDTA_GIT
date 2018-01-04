@@ -1,6 +1,16 @@
 # GIT CHEAT SHEET
 
-## MAKE CHANGES
+
+[Make changes](#makeChange)
+[Configure tool](#confTool)
+[Create repositories](#confTool)
+[Group changes](#groupChanges)
+[Save fragments](#saveFrag)
+[Review history](#revHistory)
+[Synchronise changes](#syncChanges)
+
+
+## MAKE CHANGES <a id=makeChange></a>
 
 *Review edits and craft a commit transaction*
 - **git status** Lists all new or modifed files to be committed
@@ -11,7 +21,7 @@
 - **git commit -m "[descriptive message]"** Records ?le snapshots permanently in version history
 
 
-## CONFIGURE TOOLING
+## CONFIGURE TOOLING <a id=confTool></a>
 
 *Conigure user information for all local repositories*
 - **git config --global user.name "[name]"** Sets the name you want attached to your commit transactions
@@ -19,14 +29,14 @@
 - **git config --global color.ui auto** Enables helpful colorization of command line output
 
 
-## CREATE REPOSITORIES
+## CREATE REPOSITORIES <a id=createRepo></a>
 
 *Start a new repository or obtain one from an existing URL*
 - **git init [project-name]** Creates a new local repository with the speci?ed name
 - **git clone [url]** Downloads a project and its entire version history
 
 
-## GROUP CHANGES
+## GROUP CHANGES <a id=groupChanges></a>
 
 *Name a series of commits and combine completed efforts*
 - **git branch** Lists all local branches in the current repository
@@ -36,7 +46,7 @@
 - **git branch -d [branch-name]** Deletes the specified branch
 
 
-## SAVE FRAGMENTS 
+## SAVE FRAGMENTS <a id=saveFrag></a>
 
 *Shelve and restore incomplete changes*
 - **git stash** Temporarily stores all modified tracked files
@@ -45,7 +55,7 @@
 - **git stash drop** Discards the most recently stashed changeset
 
 
-## REVIEW HISTORY
+## REVIEW HISTORY <a id=revHistory></a>
 
 *Browse and inspect the evolution of project files*
 - **git log** Lists version history for the current branch
@@ -54,7 +64,7 @@
 - **git show [commit]** Outputs metadata and content changes of the specifed commit
 
 
-## SYNCHRONIZE CHANGES
+## SYNCHRONIZE CHANGES <a id=syncChanges></a>
 
 *Register a repository bookmark and exchange version history*
 - **git fetch [bookmark]** Downloads all history from the repository bookmark
