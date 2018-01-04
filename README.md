@@ -13,26 +13,29 @@
 ## CREATE REPOSITORIES <a id=createRepo></a>
 
 *Start a new repository or obtain one from an existing URL*
+```sh
 - **git init [project-name]**
 	Creates a new local repository with the specified name
 - **git clone [url]**
 	Downloads a project and its entire version history
-
+```
 
 ## CONFIGURE TOOLING <a id=confTool></a>
 
 *Conigure user information for all local repositories*
+```sh
 - **git config --global user.name "[name]"**
 	Sets the name you want attached to your commit transactions
 - **git config --global user.email "[email address]"**
 	Sets the email you want attached to your commit transactions
 - **git config --global color.ui auto**
 	Enables helpful colorization of command line output
-
+```
 
 ## MAKE CHANGES <a id=makeChange></a>
 
 *Review edits and craft a commit transaction*
+```sh
 - **git status**
 	Lists all new or modifed files to be committed
 - **git add [file]**
@@ -45,11 +48,12 @@
 	Shows file diferences between staging and the last file version
 - **git commit -m "[descriptive message]"**
 	Records file snapshots permanently in version history
-
+```
 
 ## SYNCHRONIZE CHANGES <a id=syncChanges></a>
 
 *Register a repository bookmark and exchange version history*
+```sh
 - **git fetch [bookmark]**
 	Downloads all history from the repository bookmark
 - **git merge [bookmark]/[branch]**
@@ -58,11 +62,12 @@
 	Uploads all local branch commits to GitHub
 - **git pull**
 	Downloads bookmark history and incorporates changes
-
+```
 
 ## GROUP CHANGES <a id=groupChanges></a>
 
 *Name a series of commits and combine completed efforts*
+```sh
 - **git branch**
 	Lists all local branches in the current repository
 - **git branch [branch-name]**
@@ -75,11 +80,12 @@
 	Combines the specified branch’s history after all the changes in the current branch
 - **git branch -d [branch-name]**
 	Deletes the specified branch
-
+```
 
 ## SAVE FRAGMENTS <a id=saveFrag></a>
 
 *Shelve and restore incomplete changes*
+```sh
 - **git stash**
 	Temporarily stores all modified tracked files
 - **git stash list**
@@ -88,11 +94,12 @@
 	Restores the most recently stashed files
 - **git stash drop**
 	Discards the most recently stashed changeset
-
+```
 
 ## REVIEW HISTORY <a id=revHistory></a>
 
 *Browse and inspect the evolution of project files*
+```sh
 - **git log**
 	Lists version history for the current branch
 - **git log --follow [file]**
@@ -101,3 +108,4 @@
 	Shows content diferences between two branches
 - **git show [commit]**
 	Outputs metadata and content changes of the specifed commit
+```
