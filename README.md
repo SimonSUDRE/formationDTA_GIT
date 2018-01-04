@@ -12,8 +12,7 @@ Link : https://git-scm.com/
 * [Save fragments](#saveFrag)
 * [Review history](#revHistory)
 
-##  
-##  
+##
 
 ## CREATE REPOSITORIES <a id=createRepo></a>
 
@@ -21,6 +20,7 @@ Link : https://git-scm.com/
 - **git init [project-name]** Creates a new local repository with the specified name
 - **git clone [url]** Downloads a project and its entire version history
 
+##
 
 ## CONFIGURE TOOLING <a id=confTool></a>
 
@@ -29,6 +29,7 @@ Link : https://git-scm.com/
 - **git config --global user.email "[email address]"** Sets the email you want attached to your commit transactions
 - **git config --global color.ui auto** Enables helpful colorization of command line output
 
+##
 
 ## MAKE CHANGES <a id=makeChange></a>
 
@@ -40,6 +41,7 @@ Link : https://git-scm.com/
 - **git diff --staged** Shows file diferences between staging and the last file version
 - **git commit -m "[descriptive message]"** Records file snapshots permanently in version history
 
+##
 
 ## SYNCHRONIZE CHANGES <a id=syncChanges></a>
 
@@ -49,6 +51,7 @@ Link : https://git-scm.com/
 - **git push [alias] [branch]** Uploads all local branch commits to GitHub
 - **git pull** Downloads bookmark history and incorporates changes
 
+##
 
 ## GROUP CHANGES <a id=groupChanges></a>
 
@@ -61,6 +64,7 @@ Link : https://git-scm.com/
 - **git branch -d [branch-name]** Deletes the specified branch
 - **git tag [tag-name]** Create tag of merge
 
+##
 
 ## SAVE FRAGMENTS <a id=saveFrag></a>
 
@@ -70,6 +74,7 @@ Link : https://git-scm.com/
 - **git stash pop** Restores the most recently stashed files
 - **git stash drop** Discards the most recently stashed changeset
 
+##
 
 ## REVIEW HISTORY <a id=revHistory></a>
 
@@ -79,8 +84,10 @@ Link : https://git-scm.com/
 - **git diff [first-branch]...[second-branch]** Shows content diferences between two branches
 - **git show [commit]** Outputs metadata and content changes of the specifed commit
 
+##
 Gource for project : http://gource.io/
-
+##
 Petit guide git : https://rogerdudler.github.io/git-guide/index.fr.html
-
+##
 FOR LICENCE : https://choosealicense.com/
+##
