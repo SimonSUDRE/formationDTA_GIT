@@ -54,6 +54,7 @@
 - **git merge [branch]** Combines the specified branch’s history into the current branch
 - **git rebase [branch]** Combines the specified branch’s history after all the changes in the current branch
 - **git branch -d [branch-name]** Deletes the specified branch
+- **git tag [tag-name]** Create tag of merge
 
 
 ## SAVE FRAGMENTS <a id=saveFrag></a>
