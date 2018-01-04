@@ -7,7 +7,7 @@ MAKE CHANGES
 - **git status** Lists all new or modifed files to be committed
 - **git add [file]** Snapshots the file in preparation for versioning
 - **git reset [file]** Unstages the file, but preserve its contents
-- **git diff Shows** file diferences not yet staged
+- **git diff** Shows file diferences not yet staged
 - **git diff --staged** Shows file diferences between staging and the last file version
 - **git commit -m "[descriptive message]"** Records ?le snapshots permanently in version history
 
