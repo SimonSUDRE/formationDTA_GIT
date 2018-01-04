@@ -1,5 +1,7 @@
 # GIT CHEAT SHEET
 
+Link : https://git-scm.com/
+
 * [Create repositories](#createRepo)
 * [Configure tool](#confTool)
 * [Make changes](#makeChange)
@@ -73,3 +75,9 @@
 - **git log --follow [file]** Lists version history for a file, including renames
 - **git diff [first-branch]...[second-branch]** Shows content diferences between two branches
 - **git show [commit]** Outputs metadata and content changes of the specifed commit
+
+
+Gource for project : http://gource.io/
+petit guide git : https://rogerdudler.github.io/git-guide/index.fr.html
+
+FOR LICENCE : https://choosealicense.com/
