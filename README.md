@@ -1,13 +1,12 @@
 # GIT CHEAT SHEET
 
-
-[Make changes](#makeChange)
-[Configure tool](#confTool)
-[Create repositories](#confTool)
-[Group changes](#groupChanges)
-[Save fragments](#saveFrag)
-[Review history](#revHistory)
-[Synchronise changes](#syncChanges)
+* [Make changes](#makeChange)
+* [Configure tool](#confTool)
+* [Create repositories](#confTool)
+* [Group changes](#groupChanges)
+* [Save fragments](#saveFrag)
+* [Review history](#revHistory)
+* [Synchronise changes](#syncChanges)
 
 
 ## MAKE CHANGES <a id=makeChange></a>
