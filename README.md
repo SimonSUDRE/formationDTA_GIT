@@ -1,8 +1,7 @@
-GIT CHEAT SHEET
-===============
+# GIT CHEAT SHEET
 
-MAKE CHANGES
---------------
+## MAKE CHANGES
+
 *Review edits and craft a commit transaction*
 - **git status** Lists all new or modifed files to be committed
 - **git add [file]** Snapshots the file in preparation for versioning
@@ -12,23 +11,23 @@ MAKE CHANGES
 - **git commit -m "[descriptive message]"** Records ?le snapshots permanently in version history
 
 
-CONFIGURE TOOLING
---------------
+## CONFIGURE TOOLING
+
 *Conigure user information for all local repositories*
 - **git config --global user.name "[name]"** Sets the name you want attached to your commit transactions
 - **git config --global user.email "[email address]"** Sets the email you want attached to your commit transactions
 - **git config --global color.ui auto** Enables helpful colorization of command line output
 
 
-CREATE REPOSITORIES
---------------
+## CREATE REPOSITORIES
+
 *Start a new repository or obtain one from an existing URL*
 - **git init [project-name]** Creates a new local repository with the speci?ed name
 - **git clone [url]** Downloads a project and its entire version history
 
 
-GROUP CHANGES
---------------
+## GROUP CHANGES
+
 *Name a series of commits and combine completed efforts*
 - **git branch** Lists all local branches in the current repository
 - **git branch [branch-name]** Creates a new branch
@@ -37,8 +36,8 @@ GROUP CHANGES
 - **git branch -d [branch-name]** Deletes the specified branch
 
 
-SAVE FRAGMENTS 
---------------
+## SAVE FRAGMENTS 
+
 *Shelve and restore incomplete changes*
 - **git stash** Temporarily stores all modified tracked files
 - **git stash list** Lists all stashed changesets
@@ -46,8 +45,8 @@ SAVE FRAGMENTS
 - **git stash drop** Discards the most recently stashed changeset
 
 
-REVIEW HISTORY
---------------
+## REVIEW HISTORY
+
 *Browse and inspect the evolution of project files*
 - **git log** Lists version history for the current branch
 - **git log --follow [file]** Lists version history for a file, including renames
@@ -55,8 +54,8 @@ REVIEW HISTORY
 - **git show [commit]** Outputs metadata and content changes of the specifed commit
 
 
-SYNCHRONIZE CHANGES
---------------
+## SYNCHRONIZE CHANGES
+
 *Register a repository bookmark and exchange version history*
 - **git fetch [bookmark]** Downloads all history from the repository bookmark
 - **git merge [bookmark]/[branch]** Combines bookmark’s branch into current local branch
