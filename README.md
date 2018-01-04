@@ -2,8 +2,6 @@
 
 Link : https://git-scm.com/
 
-
-
 * [Create repositories](#createRepo)
 * [Configure tool](#confTool)
 * [Make changes](#makeChange)
@@ -11,7 +9,6 @@ Link : https://git-scm.com/
 * [Group changes](#groupChanges)
 * [Save fragments](#saveFrag)
 * [Review history](#revHistory)
-
 
 
 ## CREATE REPOSITORIES <a id=createRepo></a>
@@ -78,16 +75,8 @@ Link : https://git-scm.com/
 - **git diff [first-branch]...[second-branch]** Shows content diferences between two branches
 - **git show [commit]** Outputs metadata and content changes of the specifed commit
 
-
-
-
 Gource for project : http://gource.io/
 
 Petit guide git : https://rogerdudler.github.io/git-guide/index.fr.html
-
-
-
-
-
 
 FOR LICENCE : https://choosealicense.com/
