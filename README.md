@@ -2,6 +2,8 @@
 
 Link : https://git-scm.com/
 
+
+
 * [Create repositories](#createRepo)
 * [Configure tool](#confTool)
 * [Make changes](#makeChange)
@@ -77,7 +79,15 @@ Link : https://git-scm.com/
 - **git show [commit]** Outputs metadata and content changes of the specifed commit
 
 
+
+
 Gource for project : http://gource.io/
-petit guide git : https://rogerdudler.github.io/git-guide/index.fr.html
+
+Petit guide git : https://rogerdudler.github.io/git-guide/index.fr.html
+
+
+
+
+
 
 FOR LICENCE : https://choosealicense.com/
